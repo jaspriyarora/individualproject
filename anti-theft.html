@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Disha's IOT Project</title>
+	<link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">Disha</a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="smart-lighting.html">Smart Lighting</a></li>
+				<li><a href="heating.html">Heating</a></li>
+				<li class="active"><a href="anti-theft.html">Anti-Theft</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="jumbotron">
+            <h1>Anti-Theft</h1>
+        </div>
+		<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Add New Device</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+		<div class="row">
+			<div class="col-md-10"><h5 class="modal-title" id="exampleModalLabel"><strong>Add New Device</strong></h5></div>
+			<div class="col-md-2"><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button></div>
+		</div>
+      </div>
+	  <form action="">
+      <div class="modal-body">
+			<div class="form-group">
+			  <label for="email">User Name:</label>
+			  <input type="text" class="form-control" id="name" placeholder="Enter User Name" name="name">
+			</div>
+			<div class="form-group">
+			  <label for="pwd">Device:</label>
+			  <input type="text" class="form-control" id="device" placeholder="Enter Device Name" name="device">
+			</div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Upload</button>
+      </div>
+	  </form>
+    </div>
+  </div>
+</div>
+		<div class="table-bg">
+		<table class="table table-responsive">
+			<thead>
+			  <tr class="table-primary">
+				<th>S.No.</th>
+				<th>User</th>
+				<th>Device</th>
+				<th>Status</th>
+			  </tr>
+			</thead>
+			<tbody>    
+			  <tr class="table-success">
+				<td>1</td>
+				<td>A</td>
+				<td>Phone</td>
+				<td>ON</td>
+			  </tr>
+			  <tr class="table-danger">
+				<td>2</td>
+				<td>B</td>
+				<td>Air-Conditioning</td>
+				<td>OFF</td>
+			  </tr>
+			  <tr class="table-success">
+				<td>3</td>
+				<td>C</td>
+				<td>Heating</td>
+				<td>ON</td>
+			  </tr>
+			  <tr class="table-success">
+				<td>4</td>
+				<td>D</td>
+				<td>Anti-Theft System</td>
+				<td>ON</td>
+			  </tr>
+			  <tr class="table-danger">
+				<td>5</td>
+				<td>E</td>
+				<td>IOT Sensor</td>
+				<td>OFF</td>
+			  </tr>
+			</tbody>
+		  </table>
+		  </div>
+        <!--<div class="row">
+            <div class="col-sm-4">
+                <h3>Column 1</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+            <div class="col-sm-4">
+                <h3>Column 2</h3>
+                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+            <div class="col-sm-4">
+                <h3>Column 3</h3>
+                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+            </div>
+        </div>-->
+    </div>
+<footer class="bg-dark text-center text-white">
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    © 2023 Copyright Disha
+  </div>
+</footer>
+</body>
+</html>

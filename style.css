@@ -1,0 +1,65 @@
+body {
+	padding-top: 70px;
+	background:linear-gradient(125deg,#106ffd,#ffffff);
+	background-repeat: no-repeat;
+	background-size:cover;
+	height:100%;
+}
+.jumbotron {
+    background-image: url('bg4.png');
+    background-size: cover;
+	background-position: center;
+    height: 251px;
+    text-align: center;
+    color: #fff!important;
+	text-shadow: 0 0 10px #000;
+	box-shadow: inset 0px 0px 30px #1AE;
+    padding-top: 150px;
+}
+.jumbotron2 {
+    background-image: url('IOT.png');
+    background-size: cover;
+	background-position: center;
+	width:100%;
+    height: 641px;
+    text-align: center;
+    color: #fff!important;
+	text-shadow: 0 0 10px #000;
+	box-shadow: inset 0px 0px 30px #1AE;
+    padding: 18% 28% 18% 29%;
+	margin-bottom: 25px
+}
+.jumbotron2 h1{
+	font-size: 40px!important;
+    font-weight: 900!important;
+}
+.jumbotron p, .jumbotron2 p{
+	font-size: 28px!important;
+    font-weight: 600!important;
+}
+.table-bg{
+	background:#c6dff5;
+	padding: 13px;
+	box-shadow: 0 0 13px #000;
+	border-radius: 10px;
+	margin-bottom:6%;
+}
+.table-bg table{
+	margin:0!important;
+}
+.table-primary, .table-primary th{
+	border-top: 1px solid #7abaff!important;
+	background: #b8daff;
+	border-bottom: 0!important;
+}
+.table-success, .table-success td{
+	border-top: 1px solid #8fd19e!important;
+	background: #c3e6cb;
+}
+.table-danger, .table-danger td{
+	border-top: 1px solid #ed969e!important;
+	background: #f5c6cb;
+}
+table td, table th{
+	font-size:16px;
+}
